@@ -10,8 +10,8 @@ import datetime
 
 # Load environment variables
 load_dotenv("login.env")
-LISTFLEX_USERNAME = os.getenv("LISTFLEX_USERNAME")
-LISTFLEX_PASSWORD = os.getenv("LISTFLEX_PASSWORD")
+LISTFLEX_USERNAME = os.getenv("LISTFLEX_USERNAME_DATA")
+LISTFLEX_PASSWORD = os.getenv("LISTFLEX_PASSWORD_DATA")
 GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
 
 # Set up Google Sheets authentication

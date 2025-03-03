@@ -1,0 +1,9 @@
+# Ignore environment files containing credentials
+login.env
+*.env
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+.DS_Store
